@@ -1,5 +1,5 @@
 ## NP_SKINSHOP
 
-[![print1](https://imgur.com/zUnh5Gj.png)](https://imgur.com/zUnh5Gj.png)
+Demonstration: https://streamable.com/ne6wn
 
-https://streamable.com/ne6wn
+[![print1](https://imgur.com/zUnh5Gj.png)](https://imgur.com/zUnh5Gj.png)
