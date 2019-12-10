@@ -5,6 +5,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- Menu toggle
 -----------------------------------------------------------------------------------------------------------------------------------------
+local m, f = GetHashKey("mp_m_freemode_01"), GetHashKey("mp_f_freemode_01")
 local cor = 0
 local menuactive = false
 RegisterNetEvent("skinshop:toggleMenu")
@@ -14,9 +15,9 @@ AddEventHandler("skinshop:toggleMenu", function()
 		SetNuiFocus(true,true)
 
 		local ped = PlayerPedId()
-		if IsPedMale(ped) then
+		if IsPedModel(ped, m) then
 			SendNUIMessage({ showMenu = true, masc = true })
-		else
+		elseif IsPedModel(ped, f) then
 			SendNUIMessage({ showMenu = true, masc = false })		
 		end
 	else
