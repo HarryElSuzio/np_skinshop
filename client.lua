@@ -62,9 +62,9 @@ end)
 
 RegisterNUICallback("color", function(data, cb)
 	if data == "left" then
-		if cor ~= 0 then cor = cor - 1 else cor = 3 end
+		if cor ~= 0 then cor = cor - 1 else cor = 20 end
 	elseif data == "right" then
-		if cor ~= 3 then cor = cor + 1 else cor = 0 end
+		if cor ~= 21 then cor = cor + 1 else cor = 0 end
 	end
 	if dados and tipo then setRoupa(dados, tipo, cor) end
 end)
