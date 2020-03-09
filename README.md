@@ -1,8 +1,10 @@
 ## NP_SKINSHOP
 
-This is a simple interface that allows the user to see thumb pictures of the clothes before applying them. This is just the interface basic implementation, if you want it to work with your framework you'll need to do some changes to the code. Anyways, this repo is no longer supported and any you'll need to solve any problems by yourself. Fell free to fork it and make your own version.
+This is a simple, but very inneficient way of displaying all the game clothes and props in a pretty(ish) way.
+This is just the interface code, so you'll still need to implement it to your server.
+Feel free to use it and/or post different versions. Though, please don't forget to link the repositorie as the source-code.
 
-Ps. The CSS is garbage, I was still learning the basics when I built this, a refresh is higly recommended if you want it to look better or to have any responsiveness.
+Ps. The interface HTML is horrendous, it's just huge, so handle it carrefully. Also the CSS is very bad, as this was one of my first projects. A interface rebuild is recommended.
 
 Demonstration: https://streamable.com/ne6wn
 
