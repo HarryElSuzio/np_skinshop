@@ -1,65 +1,35 @@
 div { border: 0; outline: 0; vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+body { margin: 0; }
+* { overflow: hidden; }
 :focus { outline: 0; }
 ::selection { background: transparent; }
 
 #menu {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	transform: translate(0,-50%);
+
 	color: rgb(255, 255, 255);
 	background: rgba(0, 0, 0, 0.6);
+
 	text-align: center;
 	font-family: Arial;
 	font-size: 1.5em;
 	padding: 5px;
-	position: fixed;
-	right: 1%;
-	top: 8%;
-	width: 25%;
-	height: 85%;
-	overflow: hidden;
+	width: 370px;
+	height: 740px;
 }
 
-#rotate {
+#buttons-nav {
 	font-size: 0.6em;
-	position: fixed;
-	right: 20.3%;
-	bottom: 8%;
-	white-space: nowrap;
+	display: flex;
+	justify-content: space-evenly;
 }
 
-#rotate span {
+#buttons-nav span {
 	background: rgba(0, 0, 0, 0.6);
-	padding: 5% 9% 5% 9%;
-	border-radius: 13%;
-	margin-right: 4%;
-}
-
-#color {
-	font-size: 0.6em;
-	position: fixed;
-	right: 11.3%;
-	bottom: 8%;
-	white-space: nowrap;
-}
-
-#color span {
-	background: rgba(0, 0, 0, 0.6);
-	padding: 5% 9% 5% 9%;
-	border-radius: 13%;
-	margin-right: 4%;
-}
-
-#escape {
-	font-size: 0.6em;
-	position: fixed;
-	right: 3.3%;
-	bottom: 8%;
-	white-space: nowrap;
-}
-
-#escape span {
-	background: rgba(0, 0, 0, 0.6);
-	padding: 5% 9% 5% 9%;
-	border-radius: 13%;
-	margin-right: 4%;
+	padding: 2.5px 5px;
 }
 
 #selectors {
@@ -84,7 +54,7 @@ div { border: 0; outline: 0; vertical-align: baseline; background: transparent; 
 }
 
 .item {
-	height: 65%;
+	height: 500px;
 	overflow-y: scroll;
 }
 
